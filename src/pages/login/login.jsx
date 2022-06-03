@@ -20,31 +20,31 @@ function Login() {
                             <h3 className="pt-4 text-4xl text-black font-bold text-center">Connexion</h3>
                             <form className="text-left text-black px-8 pt-6 pb-8 mb-4 bg-white rounded">
                                 <div className="mb-4">
-                                    <label class="block mb-2 text-sm font-bold" for="username">
+                                    <label className="block mb-2 text-sm font-bold" for="username">
                                         Adresse de messagerie
                                     </label>
                                     <input
-                                        class="w-full px-3 py-3 text-sm leading-tight border rounded-lg shadow appearance-none focus:outline-none focus:shadow-outline focus:border-indigo-500"
+                                        className="w-full px-3 py-3 text-sm leading-tight border rounded-lg shadow appearance-none focus:outline-none focus:shadow-outline focus:border-indigo-500"
                                         id="email"
                                         type="email"
                                         required
                                     />
                                 </div>
                                 <div className="mb-4">
-                                    <label class="block mb-2 text-sm font-bold" for="password">
+                                    <label className="block mb-2 text-sm font-bold" for="password">
                                         Mot de passe
                                     </label>
                                     <input
-                                        class="w-full px-3 py-3 mb-3 text-sm leading-tight border border-red-500 rounded-lg shadow appearance-none focus:outline-none focus:shadow-outline focus:border-indigo-500"
+                                        className="w-full px-3 py-3 mb-3 text-sm leading-tight border border-red-500 rounded-lg shadow appearance-none focus:outline-none focus:shadow-outline focus:border-indigo-500"
                                         id="password"
                                         type="password"
                                         required
                                     />
-                                    <p class="text-xs italic text-red-500">Choisissez un mot de passe valide</p>
+                                    <p className="text-xs italic text-red-500">Choisissez un mot de passe valide</p>
                                 </div>
-                                <div class="mb-4">
-                                    <input class="mr-2 leading-tight" type="checkbox" id="checkbox_id" />
-                                    <label class="text-sm" for="checkbox_id">
+                                <div className="mb-4">
+                                    <input className="mr-2 leading-tight" type="checkbox" id="checkbox_id" />
+                                    <label className="text-sm" for="checkbox_id">
                                         Se souvenir de moi
                                     </label>
                                 </div>

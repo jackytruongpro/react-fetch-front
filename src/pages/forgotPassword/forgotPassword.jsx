@@ -17,37 +17,37 @@ function ForgotPassword() {
                             style={{ backgroundImage: "url('https://images.unsplash.com/photo-1515536765-9b2a70c4b333?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=436&q=80')" }}
                         ></div>
                         <div className="w-full lg:w-7/12 bg-white p-5 shadow-xl border border-neutral-100 rounded-lg lg:rounded-l-none">
-                            <h3 class="pt-4 text-4xl text-black font-bold text-center">Mot de passe oublié</h3>
-                            <p class="px-12 mb-4 text-sm text-gray-700">
+                            <h3 className="pt-4 text-4xl text-black font-bold text-center">Mot de passe oublié</h3>
+                            <p className="px-12 mb-4 text-sm text-gray-700">
                                 Vous avez oublié votre mot de passe ? Ce sont des choses qui arrivent. Renseignez votre adresse de messagerie, nous vous enverrons un lien pour réinitialiser votre mot de passe !
                             </p>
-                            <form class="text-left px-8 pt-6 pb-8 mb-4 bg-white rounded">
-                                <div class="mb-8">
-                                    <label class="block mb-2 text-sm font-bold text-gray-700" for="email">
+                            <form className="text-left px-8 pt-6 pb-8 mb-4 bg-white rounded">
+                                <div className="mb-8">
+                                    <label className="block mb-2 text-sm font-bold text-gray-700" for="email">
                                         Adresse de messagerie
                                     </label>
                                     <input
-                                        class="w-full px-3 py-3 text-sm leading-tight text-gray-700 border rounded-lg shadow appearance-none focus:outline-none focus:shadow-outline  focus:border-indigo-500"
+                                        className="w-full px-3 py-3 text-sm leading-tight text-gray-700 border rounded-lg shadow appearance-none focus:outline-none focus:shadow-outline  focus:border-indigo-500"
                                         id="email"
                                         type="email"
                                         required
                                     />
                                 </div>
-                                <div class="mb-6 text-center">
+                                <div className="mb-6 text-center">
                                     <button
-                                        class="w-full px-4 py-2 font-bold text-white bg-indigo-500 rounded-full hover:bg-indigo-600 focus:outline-none focus:shadow-outline"
+                                        className="w-full px-4 py-2 font-bold text-white bg-indigo-500 rounded-full hover:bg-indigo-600 focus:outline-none focus:shadow-outline"
                                         type="submit"
                                     >
                                         Réinitialiser mon mot de passe
                                     </button>
                                 </div>
-                                <hr class="mb-6 border-t" />
-                                <div class="text-center">
+                                <hr className="mb-6 border-t" />
+                                <div className="text-center">
                                     <Link to="/register" className="inline-block text-sm text-indigo-500 align-baseline hover:text-indigo-800">
                                         Pas de compte ? Inscrivez-vous !
                                     </Link>
                                 </div>
-                                <div class="text-center">
+                                <div className="text-center">
                                     <Link to="/login" className="inline-block text-sm text-indigo-500 align-baseline hover:text-indigo-800">
                                         La mémoire vous est revenue ? Connectez-vous !
                                     </Link>
